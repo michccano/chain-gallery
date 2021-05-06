@@ -21,6 +21,7 @@ body{
     position: fixed;
     top: 10px;
     right: 20px;
+    z-index: 999;
 }
 /*********** Landing Hero  ***********/
 .hero{
@@ -138,6 +139,7 @@ body{
 .Work ul{
     justify-content: center;
     list-style: none;
+    flex-wrap: wrap;
 }
 .Work ul li {
     justify-content: center;

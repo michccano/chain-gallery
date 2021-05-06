@@ -29,6 +29,13 @@ const Clients =styled.div`
         display: flex;
         list-style-type: none;
         justify-content: space-around;  
+        flex-wrap:wrap;
+        li{
+            margin-bottom:25px;  
+            margin-left:10px;
+            margin-right:10px;
+        }
         }
     
+
 `

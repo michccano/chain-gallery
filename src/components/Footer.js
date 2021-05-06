@@ -9,7 +9,7 @@ function Footer() {
             <div className="container">
                 <div className="footer1">
                 <div className="row">
-                    <div className="col-md-7  ">
+                    <div className="col-lg-7  ">
                         
                         <ul>
                             <li> <img src="/img/Chain.Gallery.png"/></li>
@@ -20,14 +20,13 @@ function Footer() {
                             <li>Aanean</li>
                         </ul>
                     </div>
-                    <div className="col-md-3 ">
+                    <div className="col-lg-3 ">
                         <input type="email" className="w-90 float-right" placeholder="Your Email"/>
                     </div>
-                    <div className="col-md-2  ">
+                    <div className="col-lg-2  ">
                     <Button variant="contained" className="w-100 font-weight-light" style={{
                     backgroundColor: "#4032E5",
                     color:"#ffffff",
-                   
                     }}>
                     SEND
                     </Button></div>
@@ -38,7 +37,7 @@ function Footer() {
                 <br/>
                 <div className="footer2">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-8">
                         <ul>
                             <li><a href="#" >Terms</a></li>
                             <li><a href="#">Artists</a></li>
@@ -46,7 +45,7 @@ function Footer() {
                             <li><a href="#">News</a></li>
                         </ul>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-4">
                     <div class="footer3">
                         <ul>
                             <li><i class="fab fa-twitter"></i></li>

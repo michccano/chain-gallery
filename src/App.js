@@ -13,7 +13,7 @@ import Testimonial from './components/Testimonial';
 import Clients_top from './components/Clients_top';
 import Clients_brand from './components/Clients_brand';
 import Footer from './components/Footer';
-
+import './responsive.css'
 
 function App() {
   return (
