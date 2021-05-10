@@ -154,4 +154,39 @@
     .hero {
         margin-top: 100px;
     }
+    .merawala{
+        text-align: center !important;
+    }
+    .merawala ul{
+       padding: 0;
+    }
+
+    .bloc_holder{
+        flex-direction: column-reverse;
+    }
+    .user_footer{
+        text-align: center;
+    }
+    .footer_logo{
+        margin-bottom: 20px;
+    }
+    .footer_nav{
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        float: none !important;
+    }
+    
+    .user_footer3{
+        float: none !important;
+        padding: 0;
+        justify-content: center;
+    }
+    .user_footer3 li {
+        margin-right: 25px;
+    }
+    .follow {
+        display: flex;
+        justify-content: center;
+    }
 }
