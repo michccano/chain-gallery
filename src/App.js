@@ -1,21 +1,22 @@
-import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '../node_modules/jquery/dist/jquery.min.js'
+import "./App.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/jquery/dist/jquery.min.js";
 
-import './Landingpage.css'
-import Landingpage  from './Landingpage';
-import {Route , Link} from 'react-router-dom'
-import Userproflie from './Userproflie';
-import './responsive.css'
+import "./css/Landingpage.css";
+import Landingpage from "./Landingpage";
+import { Route, Link } from "react-router-dom";
+import Userproflie from "./Userproflie";
+import Singleart from "./Singleart";
+import "./css/responsive.css";
 
 function App() {
-  return (
-    <>
-      <Route exact path ="/"component={Landingpage}/>
-      <Route exact path ="/Userproflie"component={Userproflie}/>
-
-    </>
-  );
+    return (
+        <>
+            <Route exact path="/" component={Landingpage} />
+            <Route exact path="/Userproflie" component={Userproflie} />
+            <Route exact path="/Singleart" component={Singleart} />
+        </>
+    );
 }
 
 export default App;
